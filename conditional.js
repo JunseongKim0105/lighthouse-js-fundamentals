@@ -43,3 +43,9 @@ if (temperature < -40 || temperature > 40) {
 if (!raining) {
   console.log('Leave your umbrella at home!');
 }
+
+let x = 10;
+while (x <= 25) {
+  console.log(x);
+  x = x + 2;
+}
